@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import TodoListItem from "./TodoListItem";
 import './TodoList.scss';
 
@@ -11,6 +12,19 @@ const TodoList = ({todos}) => {
 
         </div>
     );
+=======
+import TodoListItem from './TodoListItem';
+import './TodoList.scss';
+
+const TodoList = () => {
+  return (
+    <div className="TodoList">
+      <TodoListItem />
+      <TodoListItem />
+      <TodoListItem />
+    </div>
+  );
+>>>>>>> component
 };
 
 export default TodoList;
